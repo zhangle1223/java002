@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 spring:
   application:
     name: UserProvider
@@ -12,7 +12,8 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:10086/eureka,http://localhost:10087/eureka
+ProviderVersion: UserProvider-pro0.0.2
+#eureka:
+  #client:
+   # service-url:
+    #  defaultZone: http://localhost:10086/eureka,http://localhost:10087/eureka
